@@ -1,5 +1,8 @@
 ---
-create_containers: 4
+create_containers: 1
 default_container_name: haim_docker
-default_container_image: ubuntu
-default_container_command: sleep 1d
+default_container_image: nginx
+default_container_command: * /usr/share/nginx/html
+http_host: "haim_domain"
+http_conf: "haim_domain.conf"
+http_port: "80"
