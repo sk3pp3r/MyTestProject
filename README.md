@@ -11,8 +11,8 @@ Self learn DevOps Projects
 3. ```ssh-copy-id```
 4. 
 ```
-   docker-compose build  
-   docker-compose up -d  
+   $ docker-compose build  
+   $ docker-compose up -d  
 ```
-5. `verify container running: ```$ docker ps ```
+5. verify container running: ```$ docker ps ```
 6. open ```http://{LOCAL IP}:8080```
