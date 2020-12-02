@@ -9,4 +9,10 @@ Self learn DevOps Projects
 1. Install ```ansible``` 
 2. ```ssh-keygen```
 3. ```ssh-copy-id```
-
+4. 
+```
+   docker-compose build  
+   docker-compose up -d  
+```
+5. `verify container running: ```$ docker ps ```
+6. open ```http://{LOCAL IP}:8080```

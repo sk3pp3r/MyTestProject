@@ -1,7 +1,9 @@
-version: '2'
+version: '3'
 
 services:
   static-web:
     build: .
+    container_name: my-static-site
+    restart: always
     ports:
-     - "8000:80"
+     - "8080:80"
