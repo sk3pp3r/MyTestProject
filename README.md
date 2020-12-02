@@ -1,2 +1,2 @@
 # MyTestProject
-Self learn DevOps Projectes
+Self learn DevOps Projects
